@@ -1,4 +1,4 @@
-body{background-color: rgb(255, 202, 202);}
+body{background:linear-gradient(to top,rgb(131, 131, 221),rgb(255, 219, 153),rgb(255,219,153),rgb(131, 131, 221))}
 .img12{
     float: left;
 
