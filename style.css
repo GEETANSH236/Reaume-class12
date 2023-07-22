@@ -1,0 +1,26 @@
+
+body{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    place-items:inherit;
+    font-family: 'Poppins', sans-serif;
+    background-color: #d5d5fd;
+}
+#A{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#EDUCATION{
+    margin-left: auto;
+    margin-right: auto;
+}
+#SPORTS{
+    margin-left: auto;
+    margin-right: auto;
+}
+#SUBJECTSANDPERCENTAGE{
+    margin-left: auto;
+    margin-right: auto;
+}
