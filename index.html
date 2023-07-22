@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="THIS IS MY RESUME">
     <meta property="og:image" content="PHOTO-min.jpg">
-    <title>geetansh resume</title>
-    <link rel="STYLESHEET" href="CSS.STYLE.CSS">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Geetansh resume</title>
+    <link rel="STYLESHEET" href="style.css">
+    <link rel="icon" href="IMAGE.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +21,7 @@
     <HR>
     </HR>
     <header>
-        <TABLE border="34">
+        <TABLE border="34" id="A">
             <tr>
                 <td> <img border="18" ALIGN="LEFT" width="250" src="PHOTO-min.jpg" alt="GEETANSH TIWARI"></td>
                 <td>
@@ -27,7 +30,7 @@
                             <p>CONNECT WITH ME</p>
                         </a>
                         <nav>
-                            <ol>
+                            <ul type="none">
                                 <li>
                                     <a href="#EDUCATION">EDUCATION</a>
                                 </li>
@@ -35,12 +38,12 @@
                                     <a href="#SPORTS">SPORTS</a>
                                 </li>
                                 <li>
-                                    <a href="#SUBJECTS AND PERCENTAGE">PERCENTAGE</a>
+                                    <a href="#SUBJECTSANDPERCENTAGE">PERCENTAGE</a>
                                 </li>
                                 <li>
                                     <a href="#CONTACT ME">CONTACT ME</a>
                                 </li>
-                            </ol>
+                            </ul>
 
 
                         </nav>
@@ -53,9 +56,9 @@
     <!---header ends--->
     <MAIN>
         <hr>
-        <section id="EDUCATION">
+        <section >
             <h2>EDUCATION</h2>
-            <table border="20">
+            <table border="20" id="EDUCATION">
                 <tr>
                     <th>school</th>
                     <th>class</th>
@@ -77,9 +80,9 @@
             </table>
         </section>
         <hr>
-        <Section id="SPORTS">
+        <Section >
             <h2>SPORTS ACHIEVEMENTS</h2>
-            <table border="20">
+            <table border="20" id="SPORTS">
                 <tr>
                     <th>SPORTS</th>
                     <th>POSITION</th>
@@ -95,24 +98,21 @@
             </table>
         </Section>
         <hr>
-        <SEction id="SUBJECTS AND PERCENTAGE">
+        <SEction >
             <span>
-                <H2>[SCHOOL=GENERAL RAJ SCHOOL(NEW DELHI)]</H2>
-                <table>
+                <H2>GENERAL RAJ's SCHOOL(NEW DELHI)</H2>
+                <table id="SUBJECTSANDPERCENTAGE">
                     <td>
                         <h3>CLASS 10<sup>th</sup>marksheet</h3>
-                        <img border="7" align="LEFT" width="80" src="10 JPG.jpeg" alt="10th marksheet">
-                        <em>"LONG PRESS ON IMAGE FOR OPENING IN NEW PAGE"</em>
+                        <img border="7" align="LEFT" width="100px" src="10 JPG.jpeg" alt="10th marksheet">
                     </td>
                 </table>
             </span>
-            <hr>
-            <table>
+            <table id="SUBJECTSANDPERCENTAGE">
+                <td>
                 <h2>SUBJECTS IN CLASS 12 <sup>th</sup>{ PERCENTAGE }</h2>
-                <img class="img12" border="7" align="left" width="80" src="12 JPG.jpeg" alt="12 th marksheet">
-                <em>"LONG PRESS ON IMAGE FOR OPENING IN NEW PAGE"</em>
-                <article>
-                    <table>
+                <img class="img12" border="7" align="left" width="100px" src="12 JPG.jpeg" alt="12 th marksheet">
+                    <table id="SUBJECTSANDPERCENTAGE">
                         <td>
                             <ul>
                                 <li>physics{91%}</li>
@@ -123,8 +123,8 @@
                                 <li>computer science{89%}</li>
                             </ul>
                         </td>
+                    </td>
                     </table>
-                </article>
         </SEction>
     </MAIN>
     <HR>
@@ -132,14 +132,14 @@
     <!---MAIN SECTION ENDS--->
     <FOOter id="CONTACT ME">
         <h2 id="CONTACT"> CONNECT WITH ME</h2>
-        <UL>
+        <ul type="none">
             <li>
                 <P>EMAIL:<a href="mailto:gtiwari27122003@gmail.com"> gtiwari27122003@gmail.com </a></P>
             </LI>
             <LI>
                 <p>phone number=<a href="tel:+919990931205">9990931205</p></a>
             </LI>
-        </UL>
+        </ul>
     </FOOter>
     <a href="#">BACK TO TOP</a>
 </body>
