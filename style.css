@@ -5,9 +5,8 @@ body{
     align-content: center;
     place-items:inherit;
     font-family: 'Poppins', sans-serif;
-    background-color: #d5d5fd;
 }
-#A{
+.A{
     margin-left: auto;
     margin-right: auto;
 
@@ -23,4 +22,21 @@ body{
 #SUBJECTSANDPERCENTAGE{
     margin-left: auto;
     margin-right: auto;
+}
+
+@media(max-width:600px){
+    body{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .A{
+        width: 40px;
+        height: 20px;
+        border: 15px solid;
+    }
+    .B{
+        border: 12px solid;
+        width: 170px;
+        height: 300px;
+    }
 }
